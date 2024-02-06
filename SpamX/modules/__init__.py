@@ -9,8 +9,8 @@ __version__ = __version__
 
 
 ping_msg = PING_MSG if PING_MSG else "SpamX"
-pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph//file/08445817174872b47cef8.jpg"
-amsg = ALIVE_MSG if ALIVE_MSG else "SpamX - by RiZoeLX"
+pic = ALIVE_PIC if ALIVE_PIC else "https://lh3.googleusercontent.com/pw/ABLVV85YM0PhEzpTFxJkc4pfSpwiIJubL1otmKQ2sm3tJ46A3QApSgC2XWSG8Rr8tFfGWRk1887mnOTUwpqGvJfsWc4IvfME1rqUl9vnwS5dBzXtzGkchODJjIia42F_Qwd7w4jTcASQupJ1A9kACdiaVRg=w640-h640-s-no-gm?authuser=0"
+amsg = ALIVE_MSG if ALIVE_MSG else "SpamX - by @NOXIOUSBGMISTORE"
 
 try:
    sah = RiZoeL.get_users(OWNER_ID)
@@ -32,8 +32,7 @@ class Alive:
 ➠ **pyRiZoeLX Version:** `{pip_vr}`
 ➠ **Channel:** @RiZoeLX
 ━───────╮•╭───────━
-➠ **Source Code:** [•Repo•](https://github.com/RiZoeLX/SpamX)
-     """
+➠ **Source Code:** [•Repo•](@noxiousbgmistore)     """
 
 handler = HNDLR
 Owner = int(OWNER_ID)
